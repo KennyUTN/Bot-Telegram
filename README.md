@@ -29,11 +29,6 @@ The following is a telegram bot that sends you cheap philosophy quotes that are 
 
 - Run `ruby bin/main`
 
-## Steps to validate code using Rspec
-- Once you have clone the repository make sure that you have Rspec install by running rspec --version
-- If you do not have Rspec installed do so by following the Instructions [here](https://medium.com/@amliving/my-rails-rspec-set-up-6451269847f9)
-- Then move to the directory spec and run this command 'rspec bot_spec.rb'
-
 ### Authors
 
 👤 **Juan Ignacio Asis**
