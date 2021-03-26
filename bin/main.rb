@@ -7,5 +7,5 @@ class Main
   end
 end
 
-Main.new
 puts 'Bot Running, press CTRL-C / CMD-C to shut down'
+Main.new
