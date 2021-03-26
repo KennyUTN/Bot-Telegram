@@ -7,11 +7,8 @@ class PhiloBot
     @quotes = Quotes.new
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |msg|
-        # rubocop:disable Layout/LineLength
-
         message = "My fellow friend, send :'Im Happy' for a happy quote.
       Otherwhise send 'Im Sad' so you can recieve a proper quote."
-        # rubocop:enable Layout/LineLength
 
         message = @quotes.a_happy_quote if msg.text == 'Im Happy'
 
